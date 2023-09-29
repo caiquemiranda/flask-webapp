@@ -1,0 +1,60 @@
+/* Estilos personalizados */
+
+/* fundo da página */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* barra de navegação */
+.navbar {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* links da barra de navegação */
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* títulos de seção */
+h1,
+h2,
+h3 {
+    color: #333;
+    font-weight: bold;
+}
+
+/* projeto */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* detalhes do projeto */
+.btn-details {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.btn-details:hover {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+/* rodapé */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
